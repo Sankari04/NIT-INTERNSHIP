@@ -1,0 +1,31 @@
+# Local environment and credentials
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and generated output
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+
+# Local database backups and dumps
+backups/
+*.sql
+!database.sql
+*.dump
+*.bak
+*.backup
+*.sql.gz
+
+# Logs, editor/OS files, and private keys
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
